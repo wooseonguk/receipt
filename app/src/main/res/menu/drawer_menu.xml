@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemAllReceipt"
+        android:title="레시피 모두 보기"
+        />
+    <item android:title="레시피 목록"
+        >
+        <menu>
+            <item
+                android:id="@+id/itemMain"
+                android:title="         밥 레시피"
+                />
+            <item
+                android:id="@+id/itemSoup"
+                android:title="         국 레시피" />
+            <item
+                android:id="@+id/itemSub"
+                android:title="         반찬 레시피" />
+            <item
+                android:id="@+id/itemOther"
+                android:title="         기타 레시피" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/itemSearch"
+        android:title="레시피 검색"
+
+        />
+    <item
+        android:id="@+id/itemMonth"
+        android:title="이 달의 레시피"
+        />
+    <item
+        android:id="@+id/itemGourmet"
+        android:title="맛집 추천"
+        />
+</menu>
